@@ -12,7 +12,7 @@ class BadgeNew extends React.Component {
     email: '',
     jobTitle: '',
     twitter: '',
-    avatarURL: ''
+    avatarUrl: '',
   }}
 
   handleChange = (e) => {
@@ -40,7 +40,7 @@ class BadgeNew extends React.Component {
                        lastName={this.state.form.lastName}
                        jobTitle={this.state.form.jobTitle}
                        twitter={this.state.form.twitter}
-                       avatarURL={this.state.form.avatarURL} />
+                       avatarUrl={this.state.form.avatarUrl} />
               </div>
               <div className="col">
                 <BadgeForm 

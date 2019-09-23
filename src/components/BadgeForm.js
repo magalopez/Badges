@@ -75,8 +75,9 @@ class BadgeForm extends React.Component {
               <input type="text" 
                      name="avatarUrl"
                      className="form-control"
-                     onChange={this.handleChange}
-                     value={this.props.formValues.avatarUrl}/>
+                     onChange={this.props.onChange}
+                     value={this.props.formValues.avatarUrl}
+                     />
             </div>
             <button className="btn btn-primary"
                     onClick={this.handleClick}
