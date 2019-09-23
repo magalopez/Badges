@@ -2,6 +2,10 @@
   margin-bottom: 1rem;
 }
 
+.BadgesList>ul{
+  padding-left: 0px !important;
+}
+
 .BadgesListItem {
   background: #FFFFFF;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
@@ -35,6 +39,12 @@
   margin-left: 0.8rem;
 }
 
+.BadgesList__info h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .BadgesList__info>ul>li {
   margin: 0 !important;
 }
@@ -44,4 +54,22 @@ p {
 }
 
 
-@media-query
+@media (max-width: 544px) 
+{
+  .BadgesListItem {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .BadgesList__info {
+    margin-left: 0.8rem;
+    text-align: center;
+    margin-top: 0.9rem;
+  }
+
+}

@@ -16,7 +16,7 @@ function BadgeList ({data}) {
                className="BadgesListItem__avatar" />
           <div className="BadgesList__info">
             <ul className="list-unstyled">
-              <li><p>{badge.firstName} {badge.lastName}</p></li>
+              <li><h4>{badge.firstName} {badge.lastName}</h4></li>
               <li> 
                 <div className="BadgesListItem__twitter">
                   <img src={logoTwitter} alt="logoTwitter"/>
