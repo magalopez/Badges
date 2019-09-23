@@ -24,8 +24,6 @@ class BadgeNew extends React.Component {
     })
   }
 
-
-
   render()
   {
     return(
@@ -38,11 +36,11 @@ class BadgeNew extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col">
-                <Badge firstName='Maga'
-                       lastName='Lopez'
-                       jobTitle='Front End Developer'
-                       twitter='magalopee'
-                       avatarURL='https://s.gravatar.com/avatar/9a30350e8239534ba50b1531efcc4462?s=80' />
+                <Badge firstName={this.state.form.firstName}
+                       lastName={this.state.form.lastName}
+                       jobTitle={this.state.form.jobTitle}
+                       twitter={this.state.form.twitter}
+                       avatarURL={this.state.form.avatarURL} />
               </div>
               <div className="col">
                 <BadgeForm 
