@@ -6,6 +6,19 @@ import Badge from '../components/Badge';
 import BadgeForm  from '../components/BadgeForm'
 
 class BadgeNew extends React.Component {
+  state = {form: {}}
+
+  // handleChange = (e) => {
+  //   this.setState({
+  //     form : {
+  //       ...this.state.form,
+  //       [e.target.name] : e.target.value,
+  //     }
+  //   })
+  // }
+
+
+
   render()
   {
     return(
@@ -25,7 +38,9 @@ class BadgeNew extends React.Component {
                        avatarURL='https://s.gravatar.com/avatar/9a30350e8239534ba50b1531efcc4462?s=80' />
               </div>
               <div className="col">
-                <BadgeForm />
+                <BadgeForm 
+                // onChange={this.handleChange}
+                />
               </div>
             </div>
           </div>
