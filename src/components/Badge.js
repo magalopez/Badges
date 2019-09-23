@@ -10,7 +10,7 @@ class Badge extends React.Component {
       <section className="Badge">
         <div className="Badge__header">
           <img 
-          src={confLogo} 
+          src={confLogo}
           alt="conf-logo"/>
         </div>
         <div className="Badge__section-name">
