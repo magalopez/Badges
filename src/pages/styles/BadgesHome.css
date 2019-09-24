@@ -1,0 +1,40 @@
+.BadgesHome 
+{
+  width: 100%;
+  padding: 2rem 0;
+  background: url('../../images/stars.svg'), #1B1B25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.row {
+  padding-top: 5em;
+  padding-bottom: 12em;
+}
+
+.BadgesHome__info {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+.BadgesHome__info>img {
+  padding-bottom: 15px;
+}
+
+.btn-start {
+  margin-top:2em;
+  text-transform: uppercase;
+  line-height:2em;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.BadgesHome__astro>img{
+  padding-left: 8em;
+}
+

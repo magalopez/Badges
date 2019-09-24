@@ -26,8 +26,6 @@ function BadgeList ({data}) {
               <li><p>{badge.jobTitle}</p></li>
             </ul>          
           </div>     
-          
-         
         </li>
       )
     })}
