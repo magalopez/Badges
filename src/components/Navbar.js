@@ -19,7 +19,7 @@ function Navbar () {
           <span className="font-weight-ligth">
             Conference </span>
           <span className='font-weight-bold'
-                style={{"margin-left":"5px"}}>
+                style={{"marginLeft":"5px"}}>
             Badges</span>
         </Link>
       </div>
