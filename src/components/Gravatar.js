@@ -1,5 +1,5 @@
 import React from 'react'
-import md5 from 'md5'
+// import md5 from 'md5'
 // import md5 from 'md5'
 
 function Gravatar (props) {

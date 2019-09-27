@@ -2,21 +2,6 @@ import React from 'react';
 
 class BadgeForm extends React.Component {
   state = {}
-
-  // handleChange = (e) => {
-  //   this.setState({
-  //     // form : {
-  //       ...this.state.form,
-  //       [e.target.name] : e.target.value,
-  //     // }
-  //   })
-  // }
- 
-
-  handleClick = () => {
-    console.log('Button was Clicked')
-  }
-
   render()
   {
     return (
@@ -64,7 +49,6 @@ class BadgeForm extends React.Component {
                      value={this.props.formValues.twitter}/>
             </div>
             <button className="btn btn-primary"
-                    onClick={this.handleClick}
                     >Save
             </button>
             {this.props.error && <p className="text-danger">{this.props.error.message}</p>}

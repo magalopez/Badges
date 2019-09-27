@@ -8,6 +8,33 @@
       "jobTitle": "Front End Developer",
       "twitter": "magalopee",
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
-    }    
+    },
+    {
+      "firstName": "Nadia",
+      "lastName": "Montenegro",
+      "email": "arana.mo89@gmail.com",
+      "jobTitle": "Ux Designer",
+      "twitter": "aranamo",
+      "avatarUrl": "",
+      "id": "FOmD0rR"
+    },
+    {
+      "firstName": "Fatima",
+      "lastName": "Asayang",
+      "email": "fatima.ass@gmail.com",
+      "jobTitle": "Ux Designer",
+      "twitter": "darth_cuchi",
+      "avatarUrl": "",
+      "id": "2D03kiW"
+    },
+    {
+      "firstName": "Luis Alejandro",
+      "lastName": "López",
+      "email": "aaaaa@gmail.com",
+      "jobTitle": "Cinema Director",
+      "twitter": "lustgarale",
+      "avatarUrl": "",
+      "id": "3d9swqO"
+    }
   ]
 }
