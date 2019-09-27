@@ -1,37 +1,45 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './styles/BadgesList.css'
-import logoTwitter from '../images/twitter-logo.svg'
+import BadgeListItem from './BadgeListItem';
 
-function BadgeList ({data}) {
- return(
-  <div className="BadgesList">
-    <ul>
-    {data.map((badge) => {
-      return (
-        <li className="list-unstyled BadgesListItem" 
-            key={badge.id}
+
+class BadgeList extends React.Component {
+ render()
+ {
+  if(this.props.data.length === 0)
+  {
+   return (
+     <div>
+       <h3>
+         No badges were found
+       </h3>
+       <Link to='/badges/new'
+             className='btn btn-primary'>
+               Create new badge
+       </Link>
+     </div>
+   )
+   }
+   return(
+   <div className="BadgesList">
+     <ul>
+     {this.props.data.map((badge) => {
+       return (
+        <li className="list-unstyled" 
+        key={badge.id}
         >
-          <img src={badge.avatarUrl} 
-               alt="avatar"
-               className="BadgesListItem__avatar" />
-          <div className="BadgesList__info">
-            <ul className="list-unstyled">
-              <li><h4>{badge.firstName} {badge.lastName}</h4></li>
-              <li> 
-                <div className="BadgesListItem__twitter">
-                  <img src={logoTwitter} alt="logoTwitter"/>
-                  <p>@{badge.twitter}</p>
-                </div>
-              </li>
-              <li><p>{badge.jobTitle}</p></li>
-            </ul>          
-          </div>     
+          <Link className="text-reset text-decoration-none" 
+                to={`/badges/${badge.id}/edit`}>
+            <BadgeListItem badge={badge} />
+          </Link>
         </li>
-      )
-    })}
-    </ul>
-  </div>
- )
+       )
+     })}
+     </ul>
+   </div>
+  )
+ }
 }
 
 export default BadgeList;
