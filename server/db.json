@@ -1,31 +1,31 @@
 {
   "badges": [
     {
-      "firstName": "Nadia",
-      "lastName": "Montenegro",
-      "email": "arana.mo89@gmail.com",
-      "jobTitle": "Ux Designer",
-      "twitter": "aranamo",
+      "firstName": "Maria Gabriela",
+      "lastName": "Lopez",
+      "email": "magalopezaponte@gmail.com",
+      "jobTitle": "Front End Developer",
+      "twitter": "magalopee",
       "avatarUrl": "",
-      "id": "FOmD0rR"
+      "id": 1
     },
     {
-      "firstName": "Fatima",
-      "lastName": "Asayang",
-      "email": "fatima.ass@gmail.com",
+      "firstName": "Nadia Aracelli",
+      "lastName": "Montenegro",
+      "email": "arana@gmail.com",
       "jobTitle": "Ux Designer",
-      "twitter": "darth_cuchi",
+      "twitter": "arana89",
       "avatarUrl": "",
-      "id": "2D03kiW"
+      "id": 2
     },
     {
       "firstName": "Luis Alejandro",
-      "lastName": "López",
-      "email": "aaaaa@gmail.com",
-      "jobTitle": "Cinema Director",
-      "twitter": "lustgarale",
+      "lastName": "Lopez",
+      "email": "ale@gmail.com",
+      "jobTitle": "Data Scients",
+      "twitter": "luisale",
       "avatarUrl": "",
-      "id": "3d9swqO"
+      "id": 3
     }
   ]
 }

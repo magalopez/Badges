@@ -1,16 +1,34 @@
-import React from 'react';
+import React, {useState, useMemo} from 'react';
 import {Link} from 'react-router-dom'
 import './styles/BadgesList.css'
 import BadgeListItem from './BadgeListItem';
 
+function useSearchBadges (badge) {
+  const [query, setQuery] = useState("")
+  const [filteredBadges, setFilteredBadges] = useState(badge)
 
-class BadgeList extends React.Component {
- render()
- {
-  if(this.props.data.length === 0)
+  useMemo(()=>{
+    let result = badge.filter(badge => {
+      return `${badge.firstName} ${badge.lastName}`.toLowerCase().includes(query.toLowerCase())
+    })
+    setFilteredBadges(result)
+  },[badge, query]);
+
+  return { query, setQuery, filteredBadges}
+}
+
+function BadgeList (props) {
+  const data = props.data
+  const { query, setQuery, filteredBadges } = useSearchBadges(data)
+
+  if(filteredBadges.length === 0)
   {
    return (
      <div>
+      <div className="form-group">
+        <label>Filter Badges</label>
+        <input type="text" className="form-control" value={query} onChange={(e) => setQuery(e.target.value)} />  
+      </div>
        <h3>
          No badges were found
        </h3>
@@ -23,8 +41,13 @@ class BadgeList extends React.Component {
    }
    return(
    <div className="BadgesList">
+     <div className="form-group">
+       <label>Filter Badges</label>
+       <input type="text" className="form-control" value={query} onChange={(e) => setQuery(e.target.value)} />  
+     </div>
+
      <ul>
-     {this.props.data.map((badge) => {
+     {filteredBadges.map((badge) => {
        return (
         <li className="list-unstyled" 
         key={badge.id}
@@ -39,7 +62,6 @@ class BadgeList extends React.Component {
      </ul>
    </div>
   )
- }
 }
 
 export default BadgeList;
