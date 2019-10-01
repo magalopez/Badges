@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Curso de ReactJs
 
-## Available Scripts
+####Resumen
 
-In the project directory, you can run:
+- El hecho de que React sea declarativo quiere decir que:
 
-### `npm start`
+- Create-react-app nos ayuda a configurarlas siguientes herramientas:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- En pseudocódigo, decimos que ReactDOM.render recibe los siguientes argumentos:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- JSX es syntactic sugar para:
 
-### `npm test`
+- ¿Cuál es la diferencia entre <Navbar /> y Navbar?
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ¿Qué evento se dispara cuando un usuario escribe en una caja de texto?
 
-### `npm run build`
+- ¿Cuál es el único momento en el que podemos escribir directo a this.state?
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Hay ocasiones en las cuales hay un estado que tenemos que compartir con dos o más componentes. ¿A dónde debemos levantar ese estado?
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- ¿Cuál prop es importante cuando renderizamos una lista de componentes?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ¿Cuál es la diferencia entre <Link> y <a >?
 
-### `npm run eject`
+- ¿Cuál es el feature principal de un Switch?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- En React hay un prop que representa el contenido entre las etiquetas de un elemento. ¿Cómo se llama?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ¿Cómo se llama el primer método que se ejecuta cuando se monta un componente?
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- ¿Cuál es el último método que se llama cuando se desmonta un componente?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ¿Cuál es el método que React utiliza como señal de que ocurrió una actualización?
 
-## Learn More
+- componentDidUpdate recibe dos argumentos. ¿Cuáles son y en qué orden?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ¿Cuáles son los tres estados de una petición?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son:
 
-### Code Splitting
+- ¿Cuál de estos es el mejor lugar para iniciar una llamada HTTP?
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Cuando tenemos un setInterval o un setTimeout en nuestro componente ¿en dónde debemos removerlo?
 
-### Analyzing the Bundle Size
+- ¿Cuándo es buen momento para dividir un componente en contenedor y componente presentacional?
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- ReactDOM.createPortal nos permite hacer render de
 
-### Making a Progressive Web App
+- En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- ¿Por qué usamos un Portal para asegurar que los modales queden en un nodo fuera de la aplicación principal?
 
-### Advanced Configuration
+- Una regla de los hooks es que el su nombre debe comenzar con esta palabra:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- ¿Cuál de estas sería un uso correcto de React.useState?
