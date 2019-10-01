@@ -35,7 +35,7 @@ function BadgeList (props) {
        <Link to='/badges/new'
              className='btn btn-primary'>
                Create new badge
-       </Link>
+                    </Link>
      </div>
    )
    }

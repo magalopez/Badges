@@ -29,6 +29,6 @@ function BadgesHome () {
     </div>
     </>
   )
-};
+}
 
 export default BadgesHome;
