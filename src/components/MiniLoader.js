@@ -1,7 +1,7 @@
-import React from 'react';
-import './styles/MiniLoader.css'
- 
-function MiniLoader () {
+import React from "react";
+import "./styles/MiniLoader.css";
+
+function MiniLoader() {
   return (
     <div className="lds-grid">
       <div />
@@ -11,4 +11,4 @@ function MiniLoader () {
   );
 }
 
-export default MiniLoader
+export default MiniLoader;

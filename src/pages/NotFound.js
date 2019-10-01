@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function NotFound () {
+function NotFound() {
   return (
     <>
       <div>
@@ -8,7 +8,7 @@ function NotFound () {
         <h3>Error 404</h3>
       </div>
     </>
-  )
+  );
 }
 
-export default NotFound
+export default NotFound;

@@ -1,13 +1,13 @@
-import React from 'react';
-import Navbar from './Navbar';
+import React from "react";
+import Navbar from "./Navbar";
 
-function Layout ({children}) {
+function Layout({ children }) {
   return (
     <>
       <Navbar />
       {children}
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

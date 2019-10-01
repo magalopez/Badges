@@ -1,7 +1,7 @@
-import React from 'react';
-import './styles/Loader.css'
- 
-function Loader () {
+import React from "react";
+import "./styles/Loader.css";
+
+function Loader() {
   return (
     <div className="lds-grid">
       <div />
@@ -17,4 +17,4 @@ function Loader () {
   );
 }
 
-export default Loader
+export default Loader;
