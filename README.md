@@ -1,6 +1,6 @@
 ## Curso de ReactJs
 
-####Resumen
+#### Resumen
 
 - El hecho de que React sea declarativo quiere decir que:
 
